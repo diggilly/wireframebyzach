@@ -471,9 +471,12 @@ img {
   margin: 0;
 }
 
-.img-container {
-  position: relative;
-  overflow: hidden;
+.img-container img {
+  width: 50%;
+  height: 10%;
+  transition: transform .5s ease;
+  min-height: 0%;
+  max-width: 50px;
 }
 
 .img-container img {
