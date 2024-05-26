@@ -5,7 +5,7 @@ body{
   background-color:#f4f4f4;
 }
 
-/* Global */
+
 .container{
   width:80%;
   margin:auto;
@@ -144,7 +144,7 @@ header a:hover {
 
 #showcase {
   min-height: 400px;
-  background: url('./img/background\ 2.png') no-repeat;
+  background: url('./img/background 2.png') no-repeat;
   background-position: bottom;
   background-size: cover;
   color: #ffffff;
@@ -160,7 +160,7 @@ header a:hover {
 #showcase p.bottom-text {
   position: absolute;
   bottom: 0;
-  left: 460px; /* adjust this value to move the box horizontally */
+  left: 460px; 
   margin: 0;
   padding: 10px;
   background-color: #ffffff;
@@ -168,7 +168,7 @@ header a:hover {
   text-align: center;
   border-radius: 10px 10px 10px px;
 }
-/* adjust this value to move the box horizontally */
+
 #showcases {
   min-height: 400px;
   background: url('./img/kraven.png') no-repeat;
