@@ -144,7 +144,7 @@ header a:hover {
 
 #showcase {
   min-height: 400px;
-  background: url('./img/background 2.png') no-repeat;
+  background: url('../img/background 2.png') no-repeat;
   background-position: bottom;
   background-size: cover;
   color: #ffffff;
@@ -171,7 +171,7 @@ header a:hover {
 
 #showcases {
   min-height: 400px;
-  background: url('./img/kraven.png') no-repeat;
+  background: url('../img/kraven.png') no-repeat;
   background-position: bottom;
   background-size: cover;
   color: #ffffff;
