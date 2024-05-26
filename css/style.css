@@ -34,7 +34,7 @@ ul{
   margin-bottom:10px;
 }
 
-/* Header **/
+
 header {
   background: #35424a;
   color: #ffffff;
@@ -79,7 +79,7 @@ header a:hover {
   font-weight: bold;
 }
 
-/* Small screens */
+
 @media (max-width: 767px) {
   header nav {
     display: none;
@@ -131,7 +131,7 @@ header a:hover {
   }
 }
 
-/* Large screens */
+
 @media (min-width: 768px) {
   header li {
     padding: 0 20px 0 0;
@@ -141,10 +141,10 @@ header a:hover {
     display: none;
   }
 }
-/* Showcase */
+
 #showcase {
   min-height: 400px;
-  background: url('/img/background\ 2.png') no-repeat;
+  background: url('./img/background\ 2.png') no-repeat;
   background-position: bottom;
   background-size: cover;
   color: #ffffff;
@@ -171,7 +171,7 @@ header a:hover {
 /* adjust this value to move the box horizontally */
 #showcases {
   min-height: 400px;
-  background: url('/img/kraven.png') no-repeat;
+  background: url('./img/kraven.png') no-repeat;
   background-position: bottom;
   background-size: cover;
   color: #ffffff;
@@ -229,13 +229,13 @@ header a:hover {
 
 .slide {
   display: inline-block;
-  width: 6%; /* adjust this value to change the number of slides visible at once */
+  width: 6%;
   margin: 0 10px;
 }
 
 .slide img {
   width: 600%;
-  height:200px; /* adjust this value to change the height of the slides */
+  height:200px; 
   object-fit: cover;
 }
 
@@ -247,7 +247,7 @@ header a:hover {
     transform: translateX(-100%);
   }
 }
-/* Newsletter */
+
 #newsletter{
   padding:15px;
   color:#ffffff;
@@ -269,7 +269,7 @@ header a:hover {
   width:250px;
 }
 
-/* Boxes */
+
 #boxes{
   margin-top:20px;
 }
@@ -297,13 +297,13 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
   padding:5px;
 }
 
-/* Main-col */
+
 article#main-col{
   float:left;
   width:65%;
 }
 
-/* Services */
+
 ul#services li{
   list-style: none;
   padding:20px;
@@ -320,7 +320,7 @@ footer{
   text-align: center;
 }
 
-/* Media Queries */
+
 @media(max-width: 768px){
   header #branding,
   header nav,
